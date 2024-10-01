@@ -53,3 +53,6 @@ Predicts whether the image contains a flower or not and displays the result.
 ## Results
 After training the model, you can expect to achieve a reasonably high accuracy for the binary classification of flower images. The saved model can be used for further inference tasks.
 
+
+![image](https://github.com/user-attachments/assets/225130bb-cad8-4dc4-8201-bdc479fd3f79)
+
