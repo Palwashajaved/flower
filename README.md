@@ -18,14 +18,14 @@ This project uses transfer learning with the ResNet-18 model to classify flower 
 ## Requirements
 
 To install the dependencies, run the following command:
-```bash
+
 pip install torch torchvision matplotlib pillow
 
 ## Dataset Preparation
 
 The dataset used for training and validation should be organized in the following structure:
 
-##Training the Model
+## Training the Model
 
 To train the model, run the train.py script.
 
@@ -39,7 +39,7 @@ Initializes a pre-trained ResNet-18 model, modifying the last layer for binary c
 
 Trains the model over a specified number of epochs, prints the loss, and saves the model as flower_model.pth.
 
-##Inference
+## Inference
 To classify a new image using the trained model, run the classify.py script.
 
 This script:
@@ -50,6 +50,6 @@ Preprocesses the image similarly to the training pipeline.
 
 Predicts whether the image contains a flower or not and displays the result.
 
-##Results
+## Results
 After training the model, you can expect to achieve a reasonably high accuracy for the binary classification of flower images. The saved model can be used for further inference tasks.
 
